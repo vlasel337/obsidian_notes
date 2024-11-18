@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "186cde9ff1f49068",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd6692e87c2acfde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4875d19b02d6629d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ООП.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ООП"
+            }
+          },
+          {
+            "id": "8116333ed49d47b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Базы данных.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Базы данных"
+            }
+          },
+          {
+            "id": "761e276634884679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kafka.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kafka"
+            }
+          },
+          {
+            "id": "489105b0ae88b884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Архитектура.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Архитектура"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0a4e24d69a7be3c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fc14780c8ad4304",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb7c8e6b653c994d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c0171f6344652c5e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8578680b47a6f769",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "377b0e9717887968",
+    "type": "split",
+    "children": [
+      {
+        "id": "984eedcaf5fe41c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "362e627287ec43c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kafka.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kafka"
+            }
+          },
+          {
+            "id": "5833fc9bed35a2db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kafka.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kafka"
+            }
+          },
+          {
+            "id": "b7606901ac55399f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "99f90f9c895b72b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kafka.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kafka"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "489105b0ae88b884",
+  "lastOpenFiles": [
+    "Kafka.md",
+    "ООП.md",
+    "Agile.md",
+    "Архитектура.md",
+    "Python фишки.md",
+    "Python обучение.md",
+    "SQL фишки.md",
+    "Docker.md",
+    "Django.md",
+    "Изображения/Untitled.png",
+    "Изображения/Untitled 6.png",
+    "Изображения/Untitled 5.png",
+    "Изображения/Untitled 4.png",
+    "Изображения/Untitled 3.png",
+    "Изображения/Untitled 2.png",
+    "Изображения/Untitled 1.png",
+    "Изображения",
+    "Изображения/14.jpg"
+  ]
+}
