@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Архитектура.md",
+                "file": "Гайд к собесам.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Архитектура"
+              "title": "Гайд к собесам"
             }
           }
         ],
@@ -205,12 +205,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "489105b0ae88b884",
+  "active": "fb7c8e6b653c994d",
   "lastOpenFiles": [
     "Kafka.md",
     "ООП.md",
     "Agile.md",
-    "Архитектура.md",
+    "Гайд к собесам.md",
     "Python фишки.md",
     "Python обучение.md",
     "SQL фишки.md",
