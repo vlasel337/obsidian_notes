@@ -177,8 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7c8e6b653c994d",
+  "active": "ed6cf27a93a6ef5e",
   "lastOpenFiles": [
+    "Изображения/Data layers.png",
+    "Изображения/Data Vault example.png",
+    "Изображения/Modern data stack.png",
     "ООП.md",
     "Теория по БД (гайд к собесам).md",
     "Изображения/Pasted image 20241202114605.png",
@@ -198,8 +201,6 @@
     "Изображения/Untitled 5.png",
     "Изображения/Untitled 4.png",
     "Изображения/Untitled 3.png",
-    "Изображения/Untitled 2.png",
-    "Изображения/Untitled 1.png",
     "Изображения"
   ]
 }
