@@ -32,8 +32,6 @@ Message в Kafka состоит из:
 - Event (JSON, string)
 - Timestamp
 - Headers (key-value пары с данными, например, для прохождения аутентификации)
-
-## Протокол REST
 ## Event-driven архитектура
 
 Event-driven архитектура - это архитектура, которая соответствует ряду требований:

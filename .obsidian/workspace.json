@@ -8,63 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4875d19b02d6629d",
+            "id": "0ddff184efc9883e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП.md",
-                "mode": "preview",
+                "file": "REST API.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ООП"
+              "title": "REST API"
             }
           },
           {
-            "id": "8116333ed49d47b7",
+            "id": "ed6cf27a93a6ef5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базы данных.md",
-                "mode": "preview",
+                "file": "Теория по БД (гайд к собесам).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Базы данных"
-            }
-          },
-          {
-            "id": "761e276634884679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kafka.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka"
-            }
-          },
-          {
-            "id": "489105b0ae88b884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Гайд к собесам.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Гайд к собесам"
+              "title": "Теория по БД (гайд к собесам)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka.md",
+                "file": "Теория по БД (гайд к собесам).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kafka"
+              "title": "Backlinks for Теория по БД (гайд к собесам)"
             }
           },
           {
@@ -207,15 +179,20 @@
   },
   "active": "fb7c8e6b653c994d",
   "lastOpenFiles": [
-    "Kafka.md",
     "ООП.md",
+    "Теория по БД (гайд к собесам).md",
+    "Изображения/Pasted image 20241202114605.png",
+    "Изображения/Pasted image 20241202114500.png",
+    "Изображения/Pasted image 20241202114403.png",
+    "REST API.md",
+    "Kafka.md",
+    "Django.md",
+    "Untitled",
     "Agile.md",
-    "Гайд к собесам.md",
     "Python фишки.md",
     "Python обучение.md",
     "SQL фишки.md",
     "Docker.md",
-    "Django.md",
     "Изображения/Untitled.png",
     "Изображения/Untitled 6.png",
     "Изображения/Untitled 5.png",
@@ -223,7 +200,6 @@
     "Изображения/Untitled 3.png",
     "Изображения/Untitled 2.png",
     "Изображения/Untitled 1.png",
-    "Изображения",
-    "Изображения/14.jpg"
+    "Изображения"
   ]
 }
