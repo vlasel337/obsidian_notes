@@ -1,0 +1,13 @@
+Include /Users/vladislavseliutin/.colima/ssh_config
+# Основной аккаунт GitHub
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+
+# Второй аккаунт GitHub
+Host github-second
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_github_second
+
