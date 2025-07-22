@@ -1,3 +1,4 @@
+[Курс: Основы компьютерных сетей](https://stepik.org/course/208904/promo)
 ## Как работает DNS (Domain Name System)?
 Видос: https://www.youtube.com/watch?v=JZ_JZikhqcg
 
@@ -10,6 +11,7 @@
 Что за протокол OSI? 
 Как устроен TCP/IP? 
 
+[
 
 
 
