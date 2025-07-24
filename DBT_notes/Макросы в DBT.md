@@ -1,0 +1,41 @@
+Макросы нужны для переиспользования бизнес логики в разных моделях, для того, чтобы снизить дублирование кода. Макросы содержатся в отдельной папке `macros` в проекте.
+
+Макрос объявляется при помощи программной конструкции 
+`{% macro macro_name() %}/{% endmacro %}` внутрь которой помещается sql-скрипт, который нужно переиспользовать.
+Пример объявления макроса `updated_at.sql`:
+```sql
+{% macro updated_at() %}
+	now() at time zone 'utc' as updated_at 
+{% endmacro %}
+```
+Макрос - это функция, поэтому для его вызова необходимо к его названию добавлять скобки. Внутри скобок в функцию-макрос можно передавать параметры. 
+
+В скрипте моделей макросы вызываются через двойные фигурные скобки:
+ `{{ updated_at() }}`. Если вызывается макрос с параметром, то он передается в одинарных кавычках: `{{ date_in_moscow('started_at') }}`.
+
+Макросы необходимо регистрировать в конфигурационном файле `properties.yml`.
+Пример регистрации макроса **без аргументов** в конфигурационном файле:
+```yml
+macros: 
+	- name: "updated_at"
+	  description: "Columns which represents timestamp of the last update"
+```
+
+Пример регистрации макроса **с аргументом** в конфигурационном файле:
+```yml
+macros: 
+	-name: "date_in_moscow" 
+	 description: "Convert timestamptz to date in Europe/Moscow time zone"
+	 arguments: 
+		 - name: "ts_col" 
+		   type: "string"
+		   description: "Timestamp column in timestamptz format"
+```
+
+Для того, чтобы новая колонка полученная из макроса добавилась во все существующие (материализованные на момент добавления макроса) модели нужно для каждой модели отдельно в файле `properties.yml` или в конфигурации всего проекта в файле `dbt_project.yml` добавить опцию `on_schema_change: append_new_columns`:
+```yml
+models:
+	dbt_scooters_new:
+		+materialized: table
+		+on_schema_change: append_new_columns
+```

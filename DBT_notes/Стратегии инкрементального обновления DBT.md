@@ -10,12 +10,12 @@
 Пример внесения стратегии в файл конфигурации моделей `properties.yml`:
 ```yml
 models:
-	- name: "revenue_daily"
-	  description: "Daily revenue aggregate"
+	- name: "events_clean"
+	  description: "Dedublicated events table"
 	  config:
 		  materialized: "incremental"
-		  strategy: "merge"
-		  unique_key: [date]
+		  strategie: "merge"
+		  unique_key: ["user_id","timestamp","type_id"]
 ```
 
 
