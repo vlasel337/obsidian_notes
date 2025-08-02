@@ -1,2 +1,0 @@
-Hash-join
-Merge-join
