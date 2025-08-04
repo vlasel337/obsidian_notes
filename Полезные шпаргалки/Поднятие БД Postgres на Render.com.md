@@ -1,0 +1,1 @@
+На сайте [render.com](https://dashboard.render.com/) можно поднять небольшую БД Postgres, которая будет активна в течение 30 дней.
