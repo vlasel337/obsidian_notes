@@ -12,6 +12,9 @@ packages:
 Для подключения пакетов из файла `dependencies.yml` можно воспользоваться командой:
 `dbt deps`
 
+Для подключения конкретного пакета прямо из терминала можно использовать команду:
+`dbt deps --add-package "calogica/dbt_expectations@0.10.4"`
+
 Запуск этой команды:
 1. Создает в корне проекта папку `dbt_packages`, в которой хранятся все подключенные внешние пакеты (ее нужно добавить в `.gitignore`, чтобы не перегружать репозиторий).
 2. Создает в корне проекта файл `packages-lock.yml`, в котором перечислены все установленные пакеты с их версиями и контрольными суммами.
@@ -55,7 +58,23 @@ model:
 			    - "dbt_utils.not_constant"
 ```
 
+# Пакеты dbt_expectations, dbt_date
+Популярный пакет, в котором содержится более 60 различных тестов: [dbt_expectations](https://hub.getdbt.com/calogica/dbt_expectations/latest/).
+Вместе с пакетом dbt_expectations также автоматически устанавливается пакет [dbt_date](https://hub.getdbt.com/calogica/dbt_date/latest/), который содержит макросы для работы с датами.
 
+Для корректной работы макросов из пакета dbt_date необходимо в конфигурационном файле проекта `dbt_project.yml` установить часовую зону по умолчанию:
+```yml
+vars: 'dbt_date:time_zone': 'Europe/Moscow'
+```
 
+Пакет dbt_expectations содержит такие тесты, как, например, тест [expect_table_column_count_to_equal](https://github.com/calogica/dbt-expectations#expect_table_column_count_to_equal) для проверки количества колонок в таблице:
+```sql
+models:
+	- name: "sex_age_pivot"
+	  description: "Trips per age pivoted by sex"
+	  data_tests:
+		  - dbt_expectations.expect_table_column_count_to_equal:
+			    value: 3
+```
 
 
