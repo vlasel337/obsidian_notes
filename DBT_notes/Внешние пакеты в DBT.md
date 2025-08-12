@@ -2,6 +2,8 @@
 
 Пакеты DBT можно найти на специализированном ресурсе [dbt Hub](https://hub.getdbt.com/).
 
+Важно помнить, что внешние пакеты поддерживают только ограниченный перечень БД, поэтому перед установкой пакета нужно проверять подходит ли он для используемой в проекте БД.
+### Установка внешнего пакета в проект
 Внешние пакеты добавляются в формате: `имя_автора/имя_пакета` через файл `dependencies.yml`, расположенный в корне проекта:
 ```yml
 packages: 
@@ -29,6 +31,11 @@ packages:
 
 При создании [[Каталог данных в DBT|каталога данных]] для проекта с внешним пакетом внешний пакет будет отображаться в левой панели каталога:
 ![[DBT External packages.png|200]]
+### Удаление внешнего пакета из проекта
+Чтобы удалить пакет из проекта необходимо действовать по следующей инструкции:
+1. Удалить пакет из файла `dependencies.yml`.
+2. Запустить команду `dbt deps`, чтобы обновить файл `package-lock.yml`.
+3. Удалить папку пакета из директории `dbt_packages` (или удалить папку `dbt_packages` целиком, а потом запустить команду `dbt deps`)
 
 # Пакет dbt_utils
 Один из самых популярных внешних пакетов dbt, который содержит множество тестов и макросов: [dbt_utils](https://hub.getdbt.com/dbt-labs/dbt_utils/latest/).
@@ -76,5 +83,32 @@ models:
 		  - dbt_expectations.expect_table_column_count_to_equal:
 			    value: 3
 ```
+
+# Пакет dbt_product_analytics
+Пакет с макросами, в котором содержатся готовые решения для продуктовой аналитики ([витрина стриминга ивентов](https://github.com/mjirv/dbt_product_analytics?tab=readme-ov-file#event_stream-source), воронки, [ретеншены](https://github.com/mjirv/dbt_product_analytics?tab=readme-ov-file#retention-source) и тд): [dbt_product_analytics](https://hub.getdbt.com/mjirv/dbt_product_analytics/latest/).
+
+Пакет устанавливается командой:
+`dbt deps --add-package "mjirv/dbt_product_analytics@0.3.1"`
+
+В пакете доступен макрос для создания таблицы со стримингом ивентов:
+```sql
+{{  dbt_product_analytics.event_stream(
+	from=ref("events_full"),
+	event_type_col="type",
+	user_id_col="user_id",
+	date_col='date("timestamp")'
+) }}
+```
+
+И создания витрины ретеншенов:
+```sql
+{{  dbt_product_analytics.retention(
+	event_stream=ref('events_stream'),
+	first_action='start_search',
+	second_action='book_scooter',
+)}}
+```
+
+
 
 
