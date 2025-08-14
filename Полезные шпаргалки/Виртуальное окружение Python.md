@@ -12,4 +12,5 @@ pip install --upgrade pip
 ```
 
 Для выхода из виртуального окружения есть команда: `deactivate`.
+
 Папку `.venv` обычно добавляют в `.gitignore`**.
