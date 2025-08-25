@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database_notes/Принципы ACID.md",
+                "file": "System Design/Повышение отзывчивости системы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Принципы ACID"
+              "title": "Повышение отзывчивости системы"
             }
           },
           {
-            "id": "5eb41d5ae553c07d",
+            "id": "f6024b67b6decfd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Книги для изучения.md",
+                "file": "System Design/Расчёт нагрузки на систему.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Книги для изучения"
+              "title": "Расчёт нагрузки на систему"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,13 +169,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "2205b372bc5f5754",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +201,19 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5eb41d5ae553c07d",
+  "active": "2205b372bc5f5754",
   "lastOpenFiles": [
-    "Команды Linux.md",
-    "Книги для изучения.md",
-    "Полезные шпаргалки/Плагины Obsidian.md",
-    "Database_notes/Принципы ACID.md",
-    "System Design/Масштабирование систем.md",
     "System Design/Выбор подходящих БД.md",
+    "System Design/Высокоуровневый дизайн системы.md",
+    "_resources/Cache on different levels.png",
+    "System Design/Повышение отзывчивости системы.md",
+    "System Design/Масштабирование систем.md",
+    "Полезные шпаргалки/Плагины Obsidian.md",
+    "System Design/Расчёт нагрузки на систему.md",
+    "Database_notes/Принципы ACID.md",
+    "Повышение отзывчивости системы.md",
+    "Книги для изучения.md",
+    "Команды Linux.md",
     "ООП.md",
     "Python обучение.md",
     "Agile.md",
@@ -222,7 +236,6 @@
     "Изображения/Untitled.png",
     "Изображения/Untitled 6.png",
     "Изображения/Untitled 5.png",
-    "Изображения/Untitled 4.png",
     "Изображения"
   ]
 }
