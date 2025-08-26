@@ -5,6 +5,21 @@
     "initialized": true,
     "records": [
       {
+        "from": "кол-ву",
+        "to": "количеству",
+        "enabled": true
+      },
+      {
+        "from": "кол-ва",
+        "to": "количества",
+        "enabled": true
+      },
+      {
+        "from": "кол-во",
+        "to": "количество",
+        "enabled": true
+      },
+      {
         "from": "...",
         "to": "…",
         "enabled": true

@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "Расчёт нагрузки на систему"
             }
+          },
+          {
+            "id": "6e9cb1e9d47bc65f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design/Масштабирование систем.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Масштабирование систем"
+            }
           }
         ]
       }
@@ -197,19 +211,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "iconic:Open rulebook": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2205b372bc5f5754",
+  "active": "fb7c8e6b653c994d",
   "lastOpenFiles": [
+    "_resources/App latency decrease.png",
+    "_resources/Abstract app.png",
+    "_resources/Server Sent Events (SSE).png",
+    "_resources/WebSocket interactions.png",
+    "_resources/AJAX Polling.png",
+    "_resources/HTTP network interactions.png",
+    "System Design/Расчёт нагрузки на систему.md",
+    "System Design/Масштабирование систем.md",
+    "System Design/Повышение отзывчивости системы.md",
     "System Design/Выбор подходящих БД.md",
     "System Design/Высокоуровневый дизайн системы.md",
     "_resources/Cache on different levels.png",
-    "System Design/Повышение отзывчивости системы.md",
-    "System Design/Масштабирование систем.md",
     "Полезные шпаргалки/Плагины Obsidian.md",
-    "System Design/Расчёт нагрузки на систему.md",
     "Database_notes/Принципы ACID.md",
     "Повышение отзывчивости системы.md",
     "Книги для изучения.md",
@@ -225,17 +244,12 @@
     "Изображения/Data Vault example.png",
     "Изображения/Modern data stack.png",
     "Изображения/Pasted image 20241202114605.png",
-    "Изображения/Pasted image 20241202114500.png",
-    "Изображения/Pasted image 20241202114403.png",
     "REST API.md",
     "Kafka.md",
     "Django.md",
     "Untitled",
     "Python фишки.md",
     "SQL фишки.md",
-    "Изображения/Untitled.png",
-    "Изображения/Untitled 6.png",
-    "Изображения/Untitled 5.png",
     "Изображения"
   ]
 }
