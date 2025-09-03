@@ -243,6 +243,10 @@
   },
   "active": "6e9cb1e9d47bc65f",
   "lastOpenFiles": [
+    "Pasted image 20250903195839.png",
+    "Pasted image 20250903195710.png",
+    "Pasted image 20250903193410.png",
+    "_resources/Prefix func.png",
     "System Design/Повышение отзывчивости системы.md",
     "System Design/Подсистемы для поиска.md",
     "System Design/Популярные виды систем.md",
@@ -264,9 +268,6 @@
     "AWS S3.md",
     "README.md",
     "System Design/Расчёт нагрузки на систему.md",
-    "_resources/App latency decrease.png",
-    "_resources/Abstract app.png",
-    "_resources/Server Sent Events (SSE).png",
     "System Design/Выбор подходящих БД.md",
     "System Design/Высокоуровневый дизайн системы.md",
     "Полезные шпаргалки/Плагины Obsidian.md",
@@ -278,7 +279,6 @@
     "DBT.md",
     "Теория по БД (гайд к собесам).md",
     "REST API.md",
-    "Kafka.md",
     "Untitled",
     "Изображения"
   ]
