@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Подсистемы для поиска.md",
+                "file": "System Design/Повышение отзывчивости системы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Подсистемы для поиска"
+              "title": "Повышение отзывчивости системы"
+            }
+          },
+          {
+            "id": "1aec0897e710e3db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design/Дополнительные подсистемы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Дополнительные подсистемы"
             }
           },
           {
@@ -55,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Повышение отзывчивости системы.md",
+                "file": "System Design/Подсистемы для поиска.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Повышение отзывчивости системы"
+              "title": "Подсистемы для поиска"
             }
           },
           {
@@ -76,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,14 +256,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e9cb1e9d47bc65f",
+  "active": "1aec0897e710e3db",
   "lastOpenFiles": [
-    "Pasted image 20250903195839.png",
-    "Pasted image 20250903195710.png",
-    "Pasted image 20250903193410.png",
-    "_resources/Prefix func.png",
     "System Design/Повышение отзывчивости системы.md",
+    "System Design/Дополнительные подсистемы.md",
+    "System Design/Описание поисковой подсистемы.md",
+    "_resources/Search scheme.png",
+    "_resources/Text-search scheme.png",
+    "_resources/Auto-complete scheme.png",
+    "_resources/Geo-search scheme.png",
     "System Design/Подсистемы для поиска.md",
+    "_resources/Prefix func.png",
     "System Design/Популярные виды систем.md",
     "System Design/CAP-теорема.md",
     "System Design/Масштабирование систем.md",
@@ -259,8 +277,6 @@
     "_resources/Fuzzy search matrix.png",
     "_resources/Geohash.png",
     "_resources/Prefix trie 2.png",
-    "_resources/haystack needle algo.png",
-    "_resources/Prefix trie.png",
     "Книги для изучения.md",
     "Полезные шпаргалки/Фишки Python.md",
     "Полезные шпаргалки/Фишки GIT.md",
@@ -277,8 +293,6 @@
     "ООП.md",
     "Docker.md",
     "DBT.md",
-    "Теория по БД (гайд к собесам).md",
-    "REST API.md",
     "Untitled",
     "Изображения"
   ]
