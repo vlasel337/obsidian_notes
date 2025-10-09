@@ -1,3 +1,9 @@
+Команда для обрезания видео:
+```zsh
+ffmpeg -i video_name.mov -ss 00:00:00 -to 01:33:00 -c copy new_video_name.mov
+```
+
+
 Базовые команды Linux:
 - **exit** - команда для выхода из подсистемы WSL
 
