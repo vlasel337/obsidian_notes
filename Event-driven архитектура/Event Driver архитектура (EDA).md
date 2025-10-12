@@ -1,3 +1,4 @@
+Кракий гайд по EDA: [видео](https://www.youtube.com/watch?v=5nWHXoqkww4).
 [Ссылка на тред 1]([https://indriver.slack.com/archives/C06SK87C36F/p1749111030325329](https://indriver.slack.com/archives/C06SK87C36F/p1749111030325329)
 [Ссылка на тред 2](https://indriver.slack.com/archives/C06SK87C36F/p1753081659164099)
 
