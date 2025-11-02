@@ -3,3 +3,4 @@
 3. cMenu
 4. Iconize/Iconic
 5. Substitutions (для Windows)
+6. Emoji Toolbar
