@@ -1,6 +1,17 @@
-1. Excalidraw
-2. Advanced tables
-3. cMenu
-4. Iconize/Iconic
-5. Substitutions (для Windows)
-6. Emoji Toolbar
+
+| Плагин              | Описание                                   |
+| ------------------- | ------------------------------------------ |
+| Excalidraw          | Для взаимодействия с Excalidraw            |
+| Advanced tables     | Для адекватного взаимодействия с таблицами |
+| cMenu               | Меню для форматирования текста             |
+| Iconize             | Иконки для папок с файлами                 |
+| Substitutions       | Автозамены                                 |
+| Emoji Toolbar       | Добавляет панель с эмодзи                  |
+| Paste image rename  | Для переименования изображений при вставке |
+| Ninja cursor        | Повышает визибилити курсора                |
+| File Explorer Count | Для отображения количества файлов в папках |
+| File Explorer++     | Расширяет возможности меню с файлами       |
+
+
+
+

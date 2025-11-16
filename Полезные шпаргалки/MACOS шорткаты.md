@@ -6,5 +6,6 @@
 | Открытие только что закрывшейся вкладки     | cmd+shift+T          |
 | Скринкаст                                   | cmd+shift+5          |
 | Включить отображение скрытых папок в Finder | cmd+shift +"."       |
+| Force quit меню                             | cmd+option+escape    |
 |                                             |                      |
 |                                             |                      |
