@@ -3,6 +3,8 @@
 ffmpeg -i video_name.mov -ss 00:00:00 -to 01:33:00 -c copy new_video_name.mov
 ```
 
+ffmpeg -i 2025-12-19_12-01-53.mov -ss 00:00:00 -to 00:35:00 -c copy Саша_121_19.12.mov
+
 sumsub_afterparty.mov
 
 ffmpeg -i Daily_sync.mov -ss 00:00:00 -to 0:30:00 -c copy Daily_sync_UPD.mov
